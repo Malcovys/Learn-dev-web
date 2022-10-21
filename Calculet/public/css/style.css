@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'poppin';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+*, *::after, *::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppin';
+}
+
+.main {
+    display: flex;
+    position: relative;
+    justify-content:center ;
+    align-items: center;
+    background-color: #e3cbf3;
+    height: 100vh;
+}
+
+.firstBranch {
+    border-radius: 27px;
+    min-width: 300px;
+    padding:1rem .5rem;
+    margin:2rem0;
+    height: relative;
+    background-color: #f9fbfc;
+    box-shadow: 3px 3px 3px #c3aec5;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin: .5rem 0;
+}
+
+.firstInput, .secondInput, .thirdInput, .resultatText {
+    color: #8a8b8b;
+
+}
+input[name="resultat"]{
+    font-weight: bold;
+    color: #9a4dfe;
+    background-color: #ececec;
+    border: 1px solid #b5b6b6 ;
+    width: 300px;
+    height: 40px;
+    border-radius: 27px;
+}
+
+.champ1, .champ2, .champ3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"], select {
+    padding-left: 20px ;
+    margin-bottom: 20px;
+    border: 1px solid #b5b6b6;
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+}
+
+.resultatText {
+    margin-top: 80px;
+}
+
+input[type="button"] {
+    position: relative;
+    border: 0px;
+    background-color: #9747ff;
+    color: #e5d2ff;
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+}

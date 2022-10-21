@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'poppin';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+*, *::after, *::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppin';
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstBranch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    background-color: #e9f6ff;
+    padding: 1rem .5rem;
+    min-width: 300px;
+    height: 95vh;
+    box-shadow: 3px 3px 3px #e4e4e5,
+        -3px -2px 3px #e4e4e5;
+}
+
+.name {
+    color: #6f7071;
+    background-color: #d0e0ff;
+    border: 1px solid #6f7071;
+    padding: .2rem 1rem;
+    border-radius: 27px;
+    margin-top: 5rem;
+    text-shadow: 2px 2px #e0e0e0c7;
+    box-shadow: 3px 3px 3px #d5d5d596, -3px -3px 3px #dbdbdb96;
+    text-align: center;
+}
+
+.text {
+    font-weight: bold;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.date, .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.date {
+    flex-direction: column;
+    font-size: 4.5rem;
+    color: #3c596e;
+}
+
+.time {
+    margin-bottom: 5rem;
+}

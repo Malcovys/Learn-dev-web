@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="firstBranch">
+            <div class="secondBranch">
+                <div class="title">
+                    Calculatrice
+                </div>
+                <div class="firstInput">
+                    <label for="firstNumber">Premier nombre</label><br/>
+                    <input type="text" name="firstNumber" id="number1" required>
+                </div>
+                <div class="secondInput">
+                    <label for="secondNumber">Deuxième nombre</label><br/>
+                    <input type="text" name="secondNumber" id="number2" required>
+                </div>
+                <div class="thirdInput">
+                    <label for="operator">Opérateur</label><br/>
+                        <select name="operator" id="operator">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                            <option value="/">/</option>
+                        </select>
+                </div>
+                <div class="resultatText">
+                    Résultat
+                </div>
+                <input type="text" name="resultat" id="resultat" disabled="desabled"></div>
+                <div class="button">
+                    <input type="button" value="Calculer" onclick="calcul();">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./public/js/calcul.js"></script>
+</body>
+</html>
